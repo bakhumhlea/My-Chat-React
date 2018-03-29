@@ -1,0 +1,171 @@
+.message-list {
+    z-index: 40;
+    position: fixed;
+    overflow-y: scroll;
+    z-index: 1;
+    top: 60px;
+    bottom: 50px;
+    right: 0;
+    left: 250px;
+    background-color: #f3f3f3;
+    padding: 14px 0 10px 0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 0.8rem;
+    box-shadow: 0 1px 40px 0 rgba(0,0,0,0.5), 0 1px 10px 1px rgba(0,0,0,0.8);
+}
+div.message-list::-webkit-scrollbar {
+    width: 16px;
+}
+div.message-list::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background-color: rgb(216, 213, 213);
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+}
+
+div.message-list::-webkit-scrollbar-thumb {
+    background-color: #f3f3f3;
+    border: 1px solid #d8d5d5;
+    border-radius: 2px;
+    outline: 1px solid slategrey;
+}
+.message-list .bloc-chat-logo {
+    text-align: center;
+    position: relative;
+    margin-top: 30vh;
+    text-shadow: rgba(0,0,0,0.2) 0 1px 10px;
+}
+.message-list .bloc-chat-logo .ion-android-send {
+    color: #fdfbfb;
+    border-color: #fdfbfb;
+    background-color: transparent;
+    font-size: 4.3rem;
+    box-shadow: 0 1px 30px 0 rgba(0,0,0,0.1), 0 1px 8px 1px rgba(0,0,0,0.1), 0 1px 30px 0 rgba(0,0,0,0.1) inset;
+}
+.no-message-display {
+  font-family: 'Arvo', sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  text-align: center;
+  color: #190e0e;
+  position: relative;
+  top: 45%;
+  width: 250px;
+  height: 20px;
+  border: 6px solid #190e0e;
+  border-radius: 5px;
+  margin: auto auto auto auto;
+}
+.message-frame {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2px 10px 2px 10px;
+  clear: both;
+}
+.message-frame p {
+  position: relative;
+  padding: 0 2px 0 2px;
+  margin: 2px;
+}
+.profile-thumbnail-participant {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #1d2125;
+  margin-right: 4px;
+}
+.hidden-thumbnail {
+  display: none;
+}
+.sender-initail {
+  display: block;
+  font-family: 'Arvo', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  color: #bac5ff;
+  padding: 1px 0 0 0;
+  margin: 0 auto 0 auto 0;
+}
+.message-dialog-sent {
+  float: right;
+  text-align: right;
+  min-width: 30px;
+  padding: 6px 6px 6px 6px;
+  border-radius: 10px;
+  border-top-right-radius: 1px;
+  background-color: #476682;
+  box-shadow: -1px 1px 4px 1px rgba(0,0,0,0.4);
+}
+.message-dialog-recieve {
+  float: left;
+  text-align: left;
+  min-width: 30px;
+  padding: 6px 6px 6px 6px;
+  margin: 0;
+  border-radius: 10px;
+  border-top-left-radius: 1px;
+  background-color: #243a4e;
+  box-shadow: -1px 1px 4px 1px rgba(0,0,0,0.4);
+}
+.message-content {
+  display: block;
+  margin: 0 2px 0 2px;
+}
+.message-senttime {
+  display: block;
+  margin: 2px 2px 0 2px;
+  font-family: sans-serif;
+  font-size: 0.6rem;
+  font-weight: lighter;
+  opacity: 1;
+}
+.message-read {
+  float: right;
+  color: black;
+  margin: 4px 4px 0 0;
+  font-size: 0.6rem;
+}
+.message-unread {
+    display: none;
+}
+.chat-box {
+    z-index: 60;
+    position: fixed;
+    box-sizing: border-box;
+    right: 0;
+    bottom: 0px;
+    width: 100vw;
+    height: 50px;
+    padding: 8px 0 10px 0;
+    border-top: 3px solid #bfbfbf;
+    background-color: #d6d6d6;
+    box-shadow: 0 1px 30px 0 rgba(0,0,0,0.5), 0 1px 8px 1px rgba(0,0,0,0.8);
+}
+.chat-box input {
+    width: 75vw;
+    height: 1.7rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    border: 2px solid #d4d4d4;
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+}
+.chat-box button {
+    cursor: pointer;
+    position: absolute;
+    right: 18px;
+    width: 15vw;
+    height: 2rem;
+    color: #243a4e;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    border: 2px solid white;
+    margin: 0 4px 0 12px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}

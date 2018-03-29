@@ -1,0 +1,16 @@
+.modal-open {
+  display: block;
+}
+.modal-close {
+  display: none;
+}
+p #invalid-text {
+  color: red;
+  font-size: 0.5rem;
+}
+p.text-show {
+  display: block;
+}
+p.text-hide {
+  display: none;
+}

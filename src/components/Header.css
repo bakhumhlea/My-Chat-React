@@ -1,0 +1,85 @@
+.chatApp-header {
+    color: white;
+    position: relative;
+    z-index: 80;
+    box-sizing: content-box;
+    height: 60px;
+    background-color: #204d75;
+    box-shadow: 0 1px 30px 0 rgba(0, 0, 0, 0.4), 0 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.user-profile {
+    float: left ;
+    display: block;
+    width: 250px;
+    height: 50px;
+}
+.profile-picture {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    width: 50px;
+    height: 50px;
+    margin: 4px 0 0 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.username-display {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    position: relative;
+    bottom: 18px;
+    display: inline;
+    width: 100px;
+    padding-left: 8px;
+    border-left: 4px solid #d6d6d6;
+    margin: 0 0 0 10px;
+}
+.chatApp-title {
+    display: block;
+    position: fixed;
+    width: 100vw;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1.6rem;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.chatApp-title .ion-android-send {
+    display: inline-grid;
+    position: relative;
+    bottom: -3px;
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    margin-left: 4px;
+}
+.log-out {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+}
+.log-out button {
+    cursor: pointer;
+    display: block;
+    width: 32px;
+    height: 32px;
+    color: #70a0af;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 3px;
+    border: none;
+    border-radius: 50%;
+    margin: 12px;
+    background-color: white;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1), 0 1px 4px 0px rgba(0, 0, 0, 0.1);
+}
